@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 360px;
+}
+
+main hr {
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkblue;
+}
+main h1 {
+  font-family: "Rubik Distressed", cursive;
+  font-size: 65px;
+}
+main h5 {
+  font-family: "Rubik Distressed", cursive;
+}
+main #Home {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/Home.jpg");
+  background-size: cover;
+  font-family: "Rubik Distressed", cursive;
+  font-weight: bolder;
+}
+main #Home .home {
+  font-size: 150px;
+  padding-top: 50px;
+}
+main #Home p {
+  font-family: "Silkscreen", cursive;
+  font-size: 30px;
+}
+main #Home i {
+  font-size: 100px;
+  padding-left: 18%;
+  padding-top: 20px;
+}
+main #Foods {
+  background: url("../images/foods.jpg");
+  background-size: cover;
+}
+main #Electric {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../images/electronicspage.jpg");
+  background-size: cover;
+}
+main #Furniture {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../images/furniture.jpg");
+  background-size: cover;
+}
+main #Shoes {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../images/shoes.jpg");
+  background-size: cover;
+}
+main #Clothes {
+  background: url("../images/clothes.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */

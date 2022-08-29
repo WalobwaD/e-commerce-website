@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=
+    Josefin+Sans&family=Rubik+Distressed&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>My market</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top opacity-50 border-0">
+        <a href="#" class="navbar-brand text-white">
+                <span class="fa-solid fa-shop"></span>
+                Home Qwetu!
+        </a>
+        <form class="form-control border-0 bg-dark">
+                <div class="input input-group">
+                    <span class="fa-solid fa-magnifying-glass input-group-text
+                     bg-dark text-white border-0 mt-1"></span>
+                    <input class="form-control text-center" data-aos="zoom-in" type="text" placeholder="Search for appliances">
+                </div>
+        </form>
+        <p class="text-white mt-3"> Features</p>
+
+        <button class="btn bg-dark text-white border-0" type="button" data-bs-toggle="offcanvas"
+             data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+             <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+ 
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+         aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+             
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Go to ...</h5>
+
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+
+            </button>
+         </div>
+           <div class="offcanvas-body">
+          </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container-fluid text-white" id="Home">
+            <h1 class="home text-center">Home Qwetu</h1>
+            <p class="text-center">Thanks for visitng our site!<br>Shop anything with us ...</p>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-brands fa-shopify"></i>
+                    <i class="fa-solid fa-cart-plus"></i>
+        </div>
+
+        <div class="container-fluid bg-dark" id="Electric">
+            <h1 class="text-white text-center">Electronics<hr></h1> 
+            <div class="row" data-aos="fade-left">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/mobiles.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Mobile Phones</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>We have the smartphones you're 
+                                    looking for from the best brand in the market, Samsung, 
+                                    blackberry, iphones, Nokias, Tecno and others... </p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" >
+                    <div class="card">
+                            <img src="/images/kitchen.jpg " class="card-img-top">
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Kithcen Appliance</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get your kitchen electrics appliances, we have: blenders, 
+                                    fridges, toasters, freezers, cookers, water-kettles, and many more in stock!  </p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">                       
+                            <img src="/images/tvs.jpg" class="card-img-top">                       
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>TVs & Computers</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get your TV sets, remote controls, desktops, 
+                                    keyboards&mouse, webcams, laptops and many more</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/images/generalelectronics.jpg" class="card-img-top">
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>General Electronics</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get TV cables, earphones, chargers, hair-dryers and many more..</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="container-fluid bg-danger" id="Furniture">
+            <h1 class="text-white text-center">Furniture</h1><hr>
+            <div class="row" data-aos="fade-right">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/couch.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Couches</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get your classy and comfy couches at 
+                                    a negotiable price. Includes sofa sets and more..</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/generalfurniture.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>General Furnitures</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Looking for Carpets and oter house utilities? 
+                                    Get carpets, pillows and more here...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/tables.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Tables</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get fancy coffee tables, aquarium tables 
+                                    and more over here...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/dining.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Dining</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get your classy dining sets fully 
+                                    furnished dining tables and dining chairs and decors...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="Shoes">
+            <h1 class="text-black text-center">Shoes</h1><hr>
+            <div class="row" data-aos="fade-left">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/sandals.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Sandals</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get your comfortables sandals,open shoes and
+                                     yeezy slides at a cheap and fair price...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/sportwear.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Sports</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get sporty with us by equiping these fine sport 
+                                    shoes, also includes football boots..</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/officialwear.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Official Wear</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Look clean and sharp with our official shoes combined 
+                                    with offical wear in our clothes section you'll look job ready!...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/streetwear.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Street Wear</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Get our street wear today and look classy from equiping shoes 
+                                    from us. We have some of the best brands in the market..</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="container-fluid bg-success" id="Clothes">
+            <h1 class="text-white text-center">Clothes</h1><hr class="text-white">
+            <div class="row" data-aos="fade-right">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/casual.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Casual Wear</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Look casual by equiping our casual clothes 
+                                    and get ready with us. Always look fresh and clean!....</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/formalwear.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Formal Wear</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Be job ready with us by buying our formal wear,
+                                     includes full suits and tuxedos!...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/sports.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Sport Wear</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Looking for sport attires? We got you covered,
+                                     buy jerseys and tracks from us...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/innerwear.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Inner Wear</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Buy inner wears and lingeries from us 
+                                    and get comfortable in those clothes...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                
+        </div>
+
+        <div class="container-fluid bg-info" id="Foods">
+            <h1 class="text-white text-center">Foods</h1><hr class="text-white">
+            <div class="row" data-aos="zoom-in">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/fruits.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Fruits and vegetables</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Buy fresh fruits and vegitables from us. 
+                                    Farm fresh natural foods are te best and we got you covered...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/drinks.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Drinks</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Sodas, fruit based juices, energy drinks, cocktails, 
+                                    alcohol are available. Buy from here...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/junk.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Junk</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>Available here are burgers, fully loaded fries, spicy chicken, and more junks...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/images/cereals.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body bg-dark text-white">
+                            <div class="card-title">
+                                <h5>Cereals</h5>
+                            </div>
+                            <div class="card-text">
+                                <p>We have several dry foods to be bought. Beans, maize, oats e.t.c...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Search>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    ="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
